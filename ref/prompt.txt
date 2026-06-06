@@ -1,0 +1,391 @@
+Build a complete production-ready hotel management and booking website for **Hotel Star City** using the following stack:
+
+### Tech Stack
+
+* Next.js 15 (App Router)
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* MongoDB Atlas
+* Mongoose
+* NextAuth.js
+* Cloudinary
+* Resend Email API
+* React Hook Form
+* Zod Validation
+
+The entire project must be optimized for deployment on Vercel.
+
+---
+
+# Hotel Information
+
+Hotel Name: Hotel Star City
+
+Tagline:
+"Lodging & Fooding"
+
+Address:
+M.P. Road, Murgi Patti
+Dimapur - 797112
+Nagaland
+
+Phone Number:
++91 8787430576
+
+Initial Hotel Email:
+[devenmallaofficial@gmail.com](mailto:devenmallaofficial@gmail.com)
+
+---
+
+# Brand Identity
+
+Create a professional hospitality-themed design inspired by the Hotel Star City logo.
+
+Generate a custom SVG logo inspired by the existing Star City logo using:
+
+* Green geometric base
+* Black star elements
+* Red accent elements
+
+Do not copy the original logo exactly.
+Create a modern and professional version suitable for a hotel website.
+
+### Color Palette
+
+Primary Green:
+#5F8C3F
+
+Secondary Green:
+#A8C65B
+
+Accent Red:
+#E53950
+
+Dark:
+#1B1B1B
+
+White:
+#FFFFFF
+
+Background:
+#F8F8F8
+
+Use these colors consistently throughout the website.
+
+---
+
+# Website Requirements
+
+The website must be fully responsive and mobile-friendly.
+
+Pages:
+
+1. Home
+2. Rooms
+3. Gallery
+4. About Us
+5. Contact Us
+6. Booking Page
+7. Admin Login
+8. Admin Dashboard
+
+---
+
+# Home Page
+
+Include:
+
+* Hero Section
+* Hotel Logo
+* Hotel Introduction
+* Book Now Button
+* Room Highlights
+* Why Choose Us
+* Testimonials Section
+* Contact CTA
+* Footer
+
+Use smooth animations.
+
+---
+
+# Rooms Page
+
+Display room cards with images, features, and pricing.
+
+Room Pricing:
+
+AC Rooms
+
+Single Room:
+₹1200
+
+Double Room:
+₹1500
+
+Suite Room:
+₹2500
+
+Non-AC Rooms
+
+Single Room:
+₹800
+
+Double Room:
+₹1000
+
+Extra Person:
+₹200
+
+Admin should later be able to update these prices from the dashboard.
+
+---
+
+# Gallery Page
+
+Create a gallery system.
+
+Admin can:
+
+* Upload images
+* Delete images
+* Organize images
+
+Images stored in Cloudinary.
+
+---
+
+# Contact Page
+
+Display:
+
+Hotel Name
+Address
+Phone Number
+Email
+
+Embed Google Maps location.
+
+Add contact form.
+
+---
+
+# Booking System
+
+Customers must NOT create accounts.
+
+Customers can directly book rooms.
+
+Booking Form Fields:
+
+* Full Name
+* Phone Number
+* Email Address
+* Check-In Date
+* Check-Out Date
+* Room Type
+* Number of Guests
+* Special Requests
+
+When booking is submitted:
+
+1. Save booking in MongoDB.
+2. Send booking notification email.
+3. Generate WhatsApp booking message.
+4. Redirect customer to WhatsApp chat.
+
+WhatsApp Number:
+
+8787430576
+
+Booking data must never be lost even if WhatsApp fails.
+
+MongoDB must always store booking first.
+
+---
+
+# Admin Authentication
+
+Create a secure admin login page.
+
+Initial Credentials:
+
+Username:
+AdminHSC
+
+Password:
+adminhsc@#
+
+IMPORTANT:
+
+Do NOT hardcode credentials.
+
+Store securely using environment variables.
+
+Password must be hashed using bcrypt.
+
+Use NextAuth authentication.
+
+Protect all admin routes.
+
+Unauthenticated users cannot access admin pages.
+
+---
+
+# Admin Dashboard
+
+Create a professional dashboard.
+
+Sidebar Navigation:
+
+* Dashboard
+* Bookings
+* Rooms
+* Gallery
+* Settings
+* Logout
+
+Dashboard Overview:
+
+* Total Bookings
+* Today's Bookings
+* Pending Bookings
+* Recent Activity
+
+---
+
+# Booking Management
+
+Admin can:
+
+* View all bookings
+* Search bookings
+* Filter bookings
+* Delete bookings
+* Mark booking status
+
+Statuses:
+
+* Pending
+* Confirmed
+* Checked In
+* Completed
+* Cancelled
+
+---
+
+# Room Management
+
+Admin can:
+
+* Add room
+* Edit room
+* Delete room
+* Update pricing
+* Upload room images
+
+---
+
+# Gallery Management
+
+Admin can:
+
+* Upload images
+* Delete images
+* Manage gallery
+
+Use Cloudinary.
+
+---
+
+# Settings Management
+
+Admin can update:
+
+* Hotel Name
+* Hotel Description
+* Hotel Email
+* WhatsApp Number
+* Address
+* Social Media Links
+* Room Pricing
+
+This must allow replacing the temporary email:
+
+[devenmallaofficial@gmail.com](mailto:devenmallaofficial@gmail.com)
+
+with the hotel's official email later without changing code.
+
+---
+
+# Database Models
+
+Create MongoDB schemas for:
+
+Admin
+
+Booking
+
+Room
+
+Gallery
+
+Settings
+
+Use Mongoose.
+
+Include timestamps.
+
+---
+
+# SEO Requirements
+
+Implement:
+
+* Dynamic metadata
+* Open Graph tags
+* Twitter cards
+* Sitemap
+* Robots.txt
+* Structured hotel schema markup
+
+The website should rank well on Google for:
+
+Hotel Star City
+Hotels in Dimapur
+Budget Hotels in Dimapur
+Lodging in Dimapur
+Hotel Star City Dimapur
+
+---
+
+# Performance Requirements
+
+* Image optimization
+* Lazy loading
+* Server-side rendering where appropriate
+* Fast loading scores
+* Accessibility compliance
+
+Target:
+
+Lighthouse Score above 90.
+
+---
+
+# Deployment Requirements
+
+Provide:
+
+1. Complete project structure
+2. Full source code
+3. MongoDB setup
+4. Cloudinary setup
+5. Resend setup
+6. Environment variable template
+7. Vercel deployment guide
+8. Database seed script
+9. Admin credential initialization script
+
+The final result should look like a premium hotel website similar to modern hotel booking platforms while remaining simple enough for a small hotel business to manage.
