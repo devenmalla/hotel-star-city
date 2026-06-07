@@ -70,11 +70,11 @@ function BookingForm() {
       const result = await res.json();
 
       if (result.success) {
-        setSuccess(true);
-        setTimeout(() => {
-          window.open(result.whatsappUrl, '_blank');
-        }, 1500);
-      } else {
+  setSuccess(true);
+  setTimeout(() => {
+    window.location.href = result.whatsappUrl;
+  }, 1500);
+} else {
         setError('Something went wrong. Please try again.');
       }
     } catch (err) {
