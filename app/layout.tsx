@@ -12,9 +12,13 @@ export const metadata: Metadata = {
     template: '%s | Hotel Star City',
   },
   icons: {
-    icon: '/hotel_star_city_logo_v1.png',
-    apple: '/hotel_star_city_logo_v1.png',
-  },
+  icon: [
+    { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+    { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+  ],
+  apple: '/apple-touch-icon.png',
+  shortcut: '/favicon.ico',
+},
   description:
     'Hotel Star City offers clean, comfortable and affordable AC and Non-AC rooms in Dimapur, Nagaland. Book directly for best rates. Located on M.P. Road, Murgi Patti.',
   keywords: [
