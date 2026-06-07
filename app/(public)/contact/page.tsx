@@ -22,7 +22,7 @@ export default function ContactPage() {
   const [success, setSuccess] = useState(false);
   const [settings, setSettings] = useState<Settings>({
     hotelName: 'Hotel Star City',
-    email: 'hotelstarcity@gmail.com',
+    email: 'hotelstarcityofficial@gmail.com',
     phone: '+91 8787430576',
     address: 'M.P. Road, Murgi Patti, Dimapur - 797112, Nagaland',
     whatsappNumber: '8787430576',

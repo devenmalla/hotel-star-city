@@ -53,7 +53,7 @@ export async function sendBookingConfirmation(booking: {
     // Also notify hotel
     await resend.emails.send({
       from: 'Hotel Star City <onboarding@resend.dev>',
-      to: process.env.ADMIN_EMAIL || 'hotelstarcity@gmail.com',
+      to: process.env.ADMIN_EMAIL || 'hotelstarcityofficial@gmail.com',
       subject: `New Booking Request from ${booking.fullName}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

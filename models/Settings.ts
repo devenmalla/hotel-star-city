@@ -30,7 +30,7 @@ const SettingsSchema = new Schema<ISettings>(
     hotelName: { type: String, default: 'Hotel Star City' },
     tagline: { type: String, default: 'Lodging & Fooding' },
     description: { type: String, default: '' },
-    email: { type: String, default: 'hotelstarcity@gmail.com' },
+    email: { type: String, default: 'hotelstarcityofficial@gmail.com' },
     phone: { type: String, default: '+91 8787430576' },
     address: { type: String, default: 'M.P. Road, Murgi Patti, Dimapur - 797112, Nagaland' },
     whatsappNumber: { type: String, default: '8787430576' },

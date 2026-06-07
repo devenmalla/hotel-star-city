@@ -61,8 +61,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-400">
                 <Mail className="h-4 w-4 text-[#5F8C3F] shrink-0" />
-                <a href="mailto:hotelstarcity@gmail.com" className="hover:text-[#A8C65B]">
-                  hotelstarcity@gmail.com
+                <a href="mailto:hotelstarcityofficial@gmail.com" className="hover:text-[#A8C65B]">
+                  hotelstarcityofficial@gmail.com
                 </a>
               </li>
             </ul>
