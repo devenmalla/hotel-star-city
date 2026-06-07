@@ -6,6 +6,8 @@ import Link from 'next/link';
 import connectDB from '@/lib/mongodb';
 import Room from '@/models/Room';
 
+export const revalidate = 60; // revalidate every 60 seconds
+
 async function getRooms() {
   await connectDB();
   const rooms = await Room.find({ isAvailable: true }).sort({ createdAt: 1 });

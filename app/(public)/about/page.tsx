@@ -6,6 +6,8 @@ import { Button } from '@/components/ui/button';
 import connectDB from '@/lib/mongodb';
 import Settings from '@/models/Settings';
 
+export const revalidate = 60; // revalidate every 60 seconds
+
 async function getSettings() {
   await connectDB();
   let settings = await Settings.findOne({});
