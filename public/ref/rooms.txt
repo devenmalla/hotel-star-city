@@ -1,0 +1,56 @@
+const rooms = [
+  {
+    type: 'AC Rooms',
+    icon: Snowflake,
+    color: 'bg-blue-50 text-blue-600',
+    rooms: [
+      {
+        name: 'AC Single Room',
+        price: 1200,
+        description: 'Perfect for solo travelers and business guests. Clean, comfortable, and fully air-conditioned with all essential amenities.',
+        features: ['Air Conditioning', 'Single Bed', 'Private Bathroom', 'LED TV', 'Hot Water', 'Room Service'],
+        badge: 'Popular',
+        badgeColor: 'bg-[#5F8C3F]',
+      },
+      {
+        name: 'AC Double Room',
+        price: 1500,
+        description: 'Ideal for couples or two guests. Spacious room with a comfortable double bed and modern amenities.',
+        features: ['Air Conditioning', 'Double Bed', 'Private Bathroom', 'LED TV', 'Hot Water', 'Room Service'],
+        badge: 'Best Value',
+        badgeColor: 'bg-[#E53950]',
+      },
+      {
+        name: 'AC Suite Room',
+        price: 2500,
+        description: 'Our premium offering. Extra space, superior furnishings, and a separate sitting area for the ultimate comfort.',
+        features: ['Air Conditioning', 'King Bed', 'Private Bathroom', 'LED TV', 'Hot Water', 'Room Service', 'Sitting Area', 'Mini Fridge'],
+        badge: 'Premium',
+        badgeColor: 'bg-[#1B1B1B]',
+      },
+    ],
+  },
+  {
+    type: 'Non-AC Rooms',
+    icon: Wind,
+    color: 'bg-green-50 text-green-600',
+    rooms: [
+      {
+        name: 'Non-AC Single Room',
+        price: 800,
+        description: 'Affordable and comfortable for solo travelers. All basic amenities included at a budget-friendly price.',
+        features: ['Ceiling Fan', 'Single Bed', 'Private Bathroom', 'LED TV', 'Hot Water'],
+        badge: 'Budget',
+        badgeColor: 'bg-[#A8C65B] text-[#1B1B1B]',
+      },
+      {
+        name: 'Non-AC Double Room',
+        price: 1000,
+        description: 'Great value for two guests. Comfortable double bed with all essential amenities.',
+        features: ['Ceiling Fan', 'Double Bed', 'Private Bathroom', 'LED TV', 'Hot Water'],
+        badge: 'Budget',
+        badgeColor: 'bg-[#A8C65B] text-[#1B1B1B]',
+      },
+    ],
+  },
+];
