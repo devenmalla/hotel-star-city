@@ -11,6 +11,10 @@ export const metadata: Metadata = {
     default: 'Hotel Star City - Lodging & Fooding | Dimapur, Nagaland',
     template: '%s | Hotel Star City',
   },
+  icons: {
+    icon: '/hotel_star_city_logo_v1.png',
+    apple: '/hotel_star_city_logo_v1.png',
+  },
   description:
     'Hotel Star City offers clean, comfortable and affordable AC and Non-AC rooms in Dimapur, Nagaland. Book directly for best rates. Located on M.P. Road, Murgi Patti.',
   keywords: [
